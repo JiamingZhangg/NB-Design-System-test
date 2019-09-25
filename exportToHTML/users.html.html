@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>users.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #a9b7c6;}
+.s3 { color: #a5c261;}
+.s4 { color: #808080;}
+.s5 { color: #6897bb;}
+.s6 { color: #cc7832;}
+.s7 { color: #6d9cbe;}
+.s8 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+users.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s1">html</span><span class="s0">&gt;</span>
+&lt;html <span class="s1">lang=</span><span class="s3">&quot;en&quot;</span><span class="s0">&gt;</span>
+  &lt;head&gt;
+    &lt;meta <span class="s1">charset=</span><span class="s3">&quot;utf-8&quot;</span><span class="s0">&gt;</span>
+    &lt;meta <span class="s1">http-equiv=</span><span class="s3">&quot;X-UA-Compatible&quot; </span><span class="s1">content=</span><span class="s3">&quot;IE=edge&quot;</span><span class="s0">&gt;</span>
+    &lt;meta <span class="s1">name=</span><span class="s3">&quot;viewport&quot; </span><span class="s1">content=</span><span class="s3">&quot;width=device-width, initial-scale=1&quot;</span><span class="s0">&gt;</span>
+    &lt;title&gt;<span class="s2">Admin Area | Users</span><span class="s0">&lt;/title&gt;</span>
+    <span class="s4">&lt;!-- Bootstrap core CSS --&gt;</span>
+    <span class="s0">&lt;link </span><span class="s1">href=</span><span class="s3">&quot;css/bootstrap.min.css&quot; </span><span class="s1">rel=</span><span class="s3">&quot;stylesheet&quot;</span><span class="s0">&gt;</span>
+    &lt;link <span class="s1">href=</span><span class="s3">&quot;css/style.css&quot; </span><span class="s1">rel=</span><span class="s3">&quot;stylesheet&quot;</span><span class="s0">&gt;</span>
+    &lt;script <span class="s1">src=</span><span class="s3">&quot;http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;nav <span class="s1">class=</span><span class="s3">&quot;navbar navbar-default&quot;</span><span class="s0">&gt;</span>
+      &lt;div <span class="s1">class=</span><span class="s3">&quot;container&quot;</span><span class="s0">&gt;</span>
+        &lt;div <span class="s1">class=</span><span class="s3">&quot;navbar-header&quot;</span><span class="s0">&gt;</span>
+          &lt;button <span class="s1">type=</span><span class="s3">&quot;button&quot; </span><span class="s1">class=</span><span class="s3">&quot;navbar-toggle collapsed&quot; </span><span class="s1">data-toggle=</span><span class="s3">&quot;collapse&quot; </span><span class="s1">data-target=</span><span class="s3">&quot;#navbar&quot; </span><span class="s1">aria-expanded=</span><span class="s3">&quot;false&quot; </span><span class="s1">aria-controls=</span><span class="s3">&quot;navbar&quot;</span><span class="s0">&gt;</span>
+            &lt;span <span class="s1">class=</span><span class="s3">&quot;sr-only&quot;</span><span class="s0">&gt;</span><span class="s2">Toggle navigation</span><span class="s0">&lt;/span&gt;</span>
+            &lt;span <span class="s1">class=</span><span class="s3">&quot;icon-bar&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
+            &lt;span <span class="s1">class=</span><span class="s3">&quot;icon-bar&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
+            &lt;span <span class="s1">class=</span><span class="s3">&quot;icon-bar&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
+          &lt;/button&gt;
+          &lt;a <span class="s1">class=</span><span class="s3">&quot;navbar-brand&quot; </span><span class="s1">href=</span><span class="s3">&quot;#&quot;</span><span class="s0">&gt;</span><span class="s2">AdminStrap</span><span class="s0">&lt;/a&gt;</span>
+        &lt;/div&gt;
+        &lt;div <span class="s1">id=</span><span class="s3">&quot;navbar&quot; </span><span class="s1">class=</span><span class="s3">&quot;collapse navbar-collapse&quot;</span><span class="s0">&gt;</span>
+          &lt;ul <span class="s1">class=</span><span class="s3">&quot;nav navbar-nav&quot;</span><span class="s0">&gt;</span>
+            &lt;li&gt;&lt;a <span class="s1">href=</span><span class="s3">&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s2">Dashboard</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+            &lt;li&gt;&lt;a <span class="s1">href=</span><span class="s3">&quot;pages.html&quot;</span><span class="s0">&gt;</span><span class="s2">Pages</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+            &lt;li&gt;&lt;a <span class="s1">href=</span><span class="s3">&quot;posts.html&quot;</span><span class="s0">&gt;</span><span class="s2">Posts</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+            &lt;li <span class="s1">class=</span><span class="s3">&quot;active&quot;</span><span class="s0">&gt;&lt;a </span><span class="s1">href=</span><span class="s3">&quot;users.html&quot;</span><span class="s0">&gt;</span><span class="s2">Users</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+          &lt;/ul&gt;
+          &lt;ul <span class="s1">class=</span><span class="s3">&quot;nav navbar-nav navbar-right&quot;</span><span class="s0">&gt;</span>
+            &lt;li&gt;&lt;a <span class="s1">href=</span><span class="s3">&quot;#&quot;</span><span class="s0">&gt;</span><span class="s2">Welcome, Brad</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+            &lt;li&gt;&lt;a <span class="s1">href=</span><span class="s3">&quot;login.html&quot;</span><span class="s0">&gt;</span><span class="s2">Logout</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+          &lt;/ul&gt;
+        &lt;/div&gt;<span class="s4">&lt;!--/.nav-collapse --&gt;</span>
+      <span class="s0">&lt;/div&gt;</span>
+    &lt;/nav&gt;
+
+    &lt;header <span class="s1">id=</span><span class="s3">&quot;header&quot;</span><span class="s0">&gt;</span>
+      &lt;div <span class="s1">class=</span><span class="s3">&quot;container&quot;</span><span class="s0">&gt;</span>
+        &lt;div <span class="s1">class=</span><span class="s3">&quot;row&quot;</span><span class="s0">&gt;</span>
+          &lt;div <span class="s1">class=</span><span class="s3">&quot;col-md-10&quot;</span><span class="s0">&gt;</span>
+            &lt;h1&gt;&lt;span <span class="s1">class=</span><span class="s3">&quot;glyphicon glyphicon-cog&quot; </span><span class="s1">aria-hidden=</span><span class="s3">&quot;true&quot;</span><span class="s0">&gt;&lt;/span&gt; </span><span class="s2">Users</span><span class="s0">&lt;small&gt;</span><span class="s2">Manage Site Users</span><span class="s0">&lt;/small&gt;&lt;/h1&gt;</span>
+          &lt;/div&gt;
+          &lt;div <span class="s1">class=</span><span class="s3">&quot;col-md-2&quot;</span><span class="s0">&gt;</span>
+            &lt;div <span class="s1">class=</span><span class="s3">&quot;dropdown create&quot;</span><span class="s0">&gt;</span>
+              &lt;button <span class="s1">class=</span><span class="s3">&quot;btn btn-default dropdown-toggle&quot; </span><span class="s1">type=</span><span class="s3">&quot;button&quot; </span><span class="s1">id=</span><span class="s3">&quot;dropdownMenu1&quot; </span><span class="s1">data-toggle=</span><span class="s3">&quot;dropdown&quot; </span><span class="s1">aria-haspopup=</span><span class="s3">&quot;true&quot; </span><span class="s1">aria-expanded=</span><span class="s3">&quot;true&quot;</span><span class="s0">&gt;</span>
+                <span class="s2">Create Content</span>
+                <span class="s0">&lt;span </span><span class="s1">class=</span><span class="s3">&quot;caret&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
+              &lt;/button&gt;
+              &lt;ul <span class="s1">class=</span><span class="s3">&quot;dropdown-menu&quot; </span><span class="s1">aria-labelledby=</span><span class="s3">&quot;dropdownMenu1&quot;</span><span class="s0">&gt;</span>
+                &lt;li&gt;&lt;a <span class="s1">type=</span><span class="s3">&quot;button&quot; </span><span class="s1">data-toggle=</span><span class="s3">&quot;modal&quot; </span><span class="s1">data-target=</span><span class="s3">&quot;#addPage&quot;</span><span class="s0">&gt;</span><span class="s2">Add Page</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+                &lt;li&gt;&lt;a <span class="s1">href=</span><span class="s3">&quot;#&quot;</span><span class="s0">&gt;</span><span class="s2">Add Post</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+                &lt;li&gt;&lt;a <span class="s1">href=</span><span class="s3">&quot;#&quot;</span><span class="s0">&gt;</span><span class="s2">Add User</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+              &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/header&gt;
+
+    &lt;section <span class="s1">id=</span><span class="s3">&quot;breadcrumb&quot;</span><span class="s0">&gt;</span>
+      &lt;div <span class="s1">class=</span><span class="s3">&quot;container&quot;</span><span class="s0">&gt;</span>
+        &lt;ol <span class="s1">class=</span><span class="s3">&quot;breadcrumb&quot;</span><span class="s0">&gt;</span>
+          &lt;li&gt;&lt;a <span class="s1">href=</span><span class="s3">&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s2">Dashboard</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+          &lt;li <span class="s1">class=</span><span class="s3">&quot;active&quot;</span><span class="s0">&gt;</span><span class="s2">Users</span><span class="s0">&lt;/li&gt;</span>
+        &lt;/ol&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section <span class="s1">id=</span><span class="s3">&quot;main&quot;</span><span class="s0">&gt;</span>
+      &lt;div <span class="s1">class=</span><span class="s3">&quot;container&quot;</span><span class="s0">&gt;</span>
+        &lt;div <span class="s1">class=</span><span class="s3">&quot;row&quot;</span><span class="s0">&gt;</span>
+          &lt;div <span class="s1">class=</span><span class="s3">&quot;col-md-3&quot;</span><span class="s0">&gt;</span>
+            &lt;div <span class="s1">class=</span><span class="s3">&quot;list-group&quot;</span><span class="s0">&gt;</span>
+              &lt;a <span class="s1">href=</span><span class="s3">&quot;index.html&quot; </span><span class="s1">class=</span><span class="s3">&quot;list-group-item active main-color-bg&quot;</span><span class="s0">&gt;</span>
+                &lt;span <span class="s1">class=</span><span class="s3">&quot;glyphicon glyphicon-cog&quot; </span><span class="s1">aria-hidden=</span><span class="s3">&quot;true&quot;</span><span class="s0">&gt;&lt;/span&gt; </span><span class="s2">Dashboard</span>
+              <span class="s0">&lt;/a&gt;</span>
+              &lt;a <span class="s1">href=</span><span class="s3">&quot;pages.html&quot; </span><span class="s1">class=</span><span class="s3">&quot;list-group-item&quot;</span><span class="s0">&gt;&lt;span </span><span class="s1">class=</span><span class="s3">&quot;glyphicon glyphicon-list-alt&quot; </span><span class="s1">aria-hidden=</span><span class="s3">&quot;true&quot;</span><span class="s0">&gt;&lt;/span&gt; </span><span class="s2">Pages </span><span class="s0">&lt;span </span><span class="s1">class=</span><span class="s3">&quot;badge&quot;</span><span class="s0">&gt;</span><span class="s2">12</span><span class="s0">&lt;/span&gt;&lt;/a&gt;</span>
+              &lt;a <span class="s1">href=</span><span class="s3">&quot;posts.html&quot; </span><span class="s1">class=</span><span class="s3">&quot;list-group-item&quot;</span><span class="s0">&gt;&lt;span </span><span class="s1">class=</span><span class="s3">&quot;glyphicon glyphicon-pencil&quot; </span><span class="s1">aria-hidden=</span><span class="s3">&quot;true&quot;</span><span class="s0">&gt;&lt;/span&gt; </span><span class="s2">Posts </span><span class="s0">&lt;span </span><span class="s1">class=</span><span class="s3">&quot;badge&quot;</span><span class="s0">&gt;</span><span class="s2">33</span><span class="s0">&lt;/span&gt;&lt;/a&gt;</span>
+              &lt;a <span class="s1">href=</span><span class="s3">&quot;users.html&quot; </span><span class="s1">class=</span><span class="s3">&quot;list-group-item&quot;</span><span class="s0">&gt;&lt;span </span><span class="s1">class=</span><span class="s3">&quot;glyphicon glyphicon-user&quot; </span><span class="s1">aria-hidden=</span><span class="s3">&quot;true&quot;</span><span class="s0">&gt;&lt;/span&gt; </span><span class="s2">Users </span><span class="s0">&lt;span </span><span class="s1">class=</span><span class="s3">&quot;badge&quot;</span><span class="s0">&gt;</span><span class="s2">203</span><span class="s0">&lt;/span&gt;&lt;/a&gt;</span>
+            &lt;/div&gt;
+
+            &lt;div <span class="s1">class=</span><span class="s3">&quot;well&quot;</span><span class="s0">&gt;</span>
+              &lt;h4&gt;<span class="s2">Disk Space Used</span><span class="s0">&lt;/h4&gt;</span>
+              &lt;div <span class="s1">class=</span><span class="s3">&quot;progress&quot;</span><span class="s0">&gt;</span>
+                  &lt;div <span class="s1">class=</span><span class="s3">&quot;progress-bar&quot; </span><span class="s1">role=</span><span class="s3">&quot;progressbar&quot; </span><span class="s1">aria-valuenow=</span><span class="s3">&quot;60&quot; </span><span class="s1">aria-valuemin=</span><span class="s3">&quot;0&quot; </span><span class="s1">aria-valuemax=</span><span class="s3">&quot;100&quot; </span><span class="s1">style=</span><span class="s3">&quot;</span><span class="s1">width</span><span class="s2">: </span><span class="s5">60</span><span class="s2">%</span><span class="s6">;</span><span class="s3">&quot;</span><span class="s0">&gt;</span>
+                      <span class="s2">60%</span>
+              <span class="s0">&lt;/div&gt;</span>
+            &lt;/div&gt;
+            &lt;h4&gt;<span class="s2">Bandwidth Used </span><span class="s0">&lt;/h4&gt;</span>
+            &lt;div <span class="s1">class=</span><span class="s3">&quot;progress&quot;</span><span class="s0">&gt;</span>
+                &lt;div <span class="s1">class=</span><span class="s3">&quot;progress-bar&quot; </span><span class="s1">role=</span><span class="s3">&quot;progressbar&quot; </span><span class="s1">aria-valuenow=</span><span class="s3">&quot;40&quot; </span><span class="s1">aria-valuemin=</span><span class="s3">&quot;0&quot; </span><span class="s1">aria-valuemax=</span><span class="s3">&quot;100&quot; </span><span class="s1">style=</span><span class="s3">&quot;</span><span class="s1">width</span><span class="s2">: </span><span class="s5">40</span><span class="s2">%</span><span class="s6">;</span><span class="s3">&quot;</span><span class="s0">&gt;</span>
+                    <span class="s2">40%</span>
+            <span class="s0">&lt;/div&gt;</span>
+          &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="s1">class=</span><span class="s3">&quot;col-md-9&quot;</span><span class="s0">&gt;</span>
+            <span class="s4">&lt;!-- Website Overview --&gt;</span>
+            <span class="s0">&lt;div </span><span class="s1">class=</span><span class="s3">&quot;panel panel-default&quot;</span><span class="s0">&gt;</span>
+              &lt;div <span class="s1">class=</span><span class="s3">&quot;panel-heading main-color-bg&quot;</span><span class="s0">&gt;</span>
+                &lt;h3 <span class="s1">class=</span><span class="s3">&quot;panel-title&quot;</span><span class="s0">&gt;</span><span class="s2">Users</span><span class="s0">&lt;/h3&gt;</span>
+              &lt;/div&gt;
+              &lt;div <span class="s1">class=</span><span class="s3">&quot;panel-body&quot;</span><span class="s0">&gt;</span>
+                &lt;div <span class="s1">class=</span><span class="s3">&quot;row&quot;</span><span class="s0">&gt;</span>
+                      &lt;div <span class="s1">class=</span><span class="s3">&quot;col-md-12&quot;</span><span class="s0">&gt;</span>
+                          &lt;input <span class="s1">class=</span><span class="s3">&quot;form-control&quot; </span><span class="s1">type=</span><span class="s3">&quot;text&quot; </span><span class="s1">placeholder=</span><span class="s3">&quot;Filter Users...&quot;</span><span class="s0">&gt;</span>
+                      &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;br&gt;
+                &lt;table <span class="s1">class=</span><span class="s3">&quot;table table-striped table-hover&quot;</span><span class="s0">&gt;</span>
+                      &lt;tr&gt;
+                        &lt;th&gt;<span class="s2">Name</span><span class="s0">&lt;/th&gt;</span>
+                        &lt;th&gt;<span class="s2">Email</span><span class="s0">&lt;/th&gt;</span>
+                        &lt;th&gt;<span class="s2">Joined</span><span class="s0">&lt;/th&gt;</span>
+                        &lt;th&gt;&lt;/th&gt;
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                        &lt;td&gt;<span class="s2">Jill Smith</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;<span class="s2">jillsmith@gmail.com</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;<span class="s2">Dec 12, 2016</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;&lt;a <span class="s1">class=</span><span class="s3">&quot;btn btn-default&quot; </span><span class="s1">href=</span><span class="s3">&quot;edit.html&quot;</span><span class="s0">&gt;</span><span class="s2">Edit</span><span class="s0">&lt;/a&gt; &lt;a </span><span class="s1">class=</span><span class="s3">&quot;btn btn-danger&quot; </span><span class="s1">href=</span><span class="s3">&quot;#&quot;</span><span class="s0">&gt;</span><span class="s2">Delete</span><span class="s0">&lt;/a&gt;&lt;/td&gt;</span>
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                        &lt;td&gt;<span class="s2">Eve Jackson</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;<span class="s2">ejackson@yahoo.com</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;<span class="s2">Dec 13, 2016</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;&lt;a <span class="s1">class=</span><span class="s3">&quot;btn btn-default&quot; </span><span class="s1">href=</span><span class="s3">&quot;edit.html&quot;</span><span class="s0">&gt;</span><span class="s2">Edit</span><span class="s0">&lt;/a&gt; &lt;a </span><span class="s1">class=</span><span class="s3">&quot;btn btn-danger&quot; </span><span class="s1">href=</span><span class="s3">&quot;#&quot;</span><span class="s0">&gt;</span><span class="s2">Delete</span><span class="s0">&lt;/a&gt;&lt;/td&gt;</span>
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                       &lt;td&gt;<span class="s2">Stephanie Landon</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;<span class="s2">landon@yahoo.com</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;<span class="s2">Dec 14, 2016</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;&lt;a <span class="s1">class=</span><span class="s3">&quot;btn btn-default&quot; </span><span class="s1">href=</span><span class="s3">&quot;edit.html&quot;</span><span class="s0">&gt;</span><span class="s2">Edit</span><span class="s0">&lt;/a&gt; &lt;a </span><span class="s1">class=</span><span class="s3">&quot;btn btn-danger&quot; </span><span class="s1">href=</span><span class="s3">&quot;#&quot;</span><span class="s0">&gt;</span><span class="s2">Delete</span><span class="s0">&lt;/a&gt;&lt;/td&gt;</span>
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                        &lt;td&gt;<span class="s2">Mike Johnson</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;<span class="s2">mjohnson@gmail.com</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;<span class="s2">Dec 15, 2016</span><span class="s0">&lt;/td&gt;</span>
+                        &lt;td&gt;&lt;a <span class="s1">class=</span><span class="s3">&quot;btn btn-default&quot; </span><span class="s1">href=</span><span class="s3">&quot;edit.html&quot;</span><span class="s0">&gt;</span><span class="s2">Edit</span><span class="s0">&lt;/a&gt; &lt;a </span><span class="s1">class=</span><span class="s3">&quot;btn btn-danger&quot; </span><span class="s1">href=</span><span class="s3">&quot;#&quot;</span><span class="s0">&gt;</span><span class="s2">Delete</span><span class="s0">&lt;/a&gt;&lt;/td&gt;</span>
+                      &lt;/tr&gt;
+                    &lt;/table&gt;
+              &lt;/div&gt;
+              &lt;/div&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;footer <span class="s1">id=</span><span class="s3">&quot;footer&quot;</span><span class="s0">&gt;</span>
+      &lt;p&gt;<span class="s2">Copyright AdminStrap, </span><span class="s7">&amp;copy; </span><span class="s2">2017</span><span class="s0">&lt;/p&gt;</span>
+    &lt;/footer&gt;
+
+    <span class="s4">&lt;!-- Modals --&gt;</span>
+
+    &lt;!-- Add Page --&gt;
+    <span class="s0">&lt;div </span><span class="s1">class=</span><span class="s3">&quot;modal fade&quot; </span><span class="s1">id=</span><span class="s3">&quot;addPage&quot; </span><span class="s1">tabindex=</span><span class="s3">&quot;-1&quot; </span><span class="s1">role=</span><span class="s3">&quot;dialog&quot; </span><span class="s1">aria-labelledby=</span><span class="s3">&quot;myModalLabel&quot;</span><span class="s0">&gt;</span>
+  &lt;div <span class="s1">class=</span><span class="s3">&quot;modal-dialog&quot; </span><span class="s1">role=</span><span class="s3">&quot;document&quot;</span><span class="s0">&gt;</span>
+    &lt;div <span class="s1">class=</span><span class="s3">&quot;modal-content&quot;</span><span class="s0">&gt;</span>
+      &lt;form&gt;
+      &lt;div <span class="s1">class=</span><span class="s3">&quot;modal-header&quot;</span><span class="s0">&gt;</span>
+        &lt;button <span class="s1">type=</span><span class="s3">&quot;button&quot; </span><span class="s1">class=</span><span class="s3">&quot;close&quot; </span><span class="s1">data-dismiss=</span><span class="s3">&quot;modal&quot; </span><span class="s1">aria-label=</span><span class="s3">&quot;Close&quot;</span><span class="s0">&gt;&lt;span </span><span class="s1">aria-hidden=</span><span class="s3">&quot;true&quot;</span><span class="s0">&gt;</span><span class="s7">&amp;times;</span><span class="s0">&lt;/span&gt;&lt;/button&gt;</span>
+        &lt;h4 <span class="s1">class=</span><span class="s3">&quot;modal-title&quot; </span><span class="s1">id=</span><span class="s3">&quot;myModalLabel&quot;</span><span class="s0">&gt;</span><span class="s2">Add Page</span><span class="s0">&lt;/h4&gt;</span>
+      &lt;/div&gt;
+      &lt;div <span class="s1">class=</span><span class="s3">&quot;modal-body&quot;</span><span class="s0">&gt;</span>
+        &lt;div <span class="s1">class=</span><span class="s3">&quot;form-group&quot;</span><span class="s0">&gt;</span>
+          &lt;label&gt;<span class="s2">Page Title</span><span class="s0">&lt;/label&gt;</span>
+          &lt;input <span class="s1">type=</span><span class="s3">&quot;text&quot; </span><span class="s1">class=</span><span class="s3">&quot;form-control&quot; </span><span class="s1">placeholder=</span><span class="s3">&quot;Page Title&quot;</span><span class="s0">&gt;</span>
+        &lt;/div&gt;
+        &lt;div <span class="s1">class=</span><span class="s3">&quot;form-group&quot;</span><span class="s0">&gt;</span>
+          &lt;label&gt;<span class="s2">Page Body</span><span class="s0">&lt;/label&gt;</span>
+          &lt;textarea <span class="s1">name=</span><span class="s3">&quot;editor1&quot; </span><span class="s1">class=</span><span class="s3">&quot;form-control&quot; </span><span class="s1">placeholder=</span><span class="s3">&quot;Page Body&quot;</span><span class="s0">&gt;&lt;/textarea&gt;</span>
+        &lt;/div&gt;
+        &lt;div <span class="s1">class=</span><span class="s3">&quot;checkbox&quot;</span><span class="s0">&gt;</span>
+          &lt;label&gt;
+            &lt;input <span class="s1">type=</span><span class="s3">&quot;checkbox&quot;</span><span class="s0">&gt; </span><span class="s2">Published</span>
+          <span class="s0">&lt;/label&gt;</span>
+        &lt;/div&gt;
+        &lt;div <span class="s1">class=</span><span class="s3">&quot;form-group&quot;</span><span class="s0">&gt;</span>
+          &lt;label&gt;<span class="s2">Meta Tags</span><span class="s0">&lt;/label&gt;</span>
+          &lt;input <span class="s1">type=</span><span class="s3">&quot;text&quot; </span><span class="s1">class=</span><span class="s3">&quot;form-control&quot; </span><span class="s1">placeholder=</span><span class="s3">&quot;Add Some Tags...&quot;</span><span class="s0">&gt;</span>
+        &lt;/div&gt;
+        &lt;div <span class="s1">class=</span><span class="s3">&quot;form-group&quot;</span><span class="s0">&gt;</span>
+          &lt;label&gt;<span class="s2">Meta Description</span><span class="s0">&lt;/label&gt;</span>
+          &lt;input <span class="s1">type=</span><span class="s3">&quot;text&quot; </span><span class="s1">class=</span><span class="s3">&quot;form-control&quot; </span><span class="s1">placeholder=</span><span class="s3">&quot;Add Meta Description...&quot;</span><span class="s0">&gt;</span>
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div <span class="s1">class=</span><span class="s3">&quot;modal-footer&quot;</span><span class="s0">&gt;</span>
+        &lt;button <span class="s1">type=</span><span class="s3">&quot;button&quot; </span><span class="s1">class=</span><span class="s3">&quot;btn btn-default&quot; </span><span class="s1">data-dismiss=</span><span class="s3">&quot;modal&quot;</span><span class="s0">&gt;</span><span class="s2">Close</span><span class="s0">&lt;/button&gt;</span>
+        &lt;button <span class="s1">type=</span><span class="s3">&quot;submit&quot; </span><span class="s1">class=</span><span class="s3">&quot;btn btn-primary&quot;</span><span class="s0">&gt;</span><span class="s2">Save changes</span><span class="s0">&lt;/button&gt;</span>
+      &lt;/div&gt;
+    &lt;/form&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;script&gt;
+     <span class="s2">CKEDITOR.replace( </span><span class="s8">'editor1' </span><span class="s2">)</span><span class="s6">;</span>
+ <span class="s0">&lt;/script&gt;</span>
+
+    <span class="s4">&lt;!-- Bootstrap core JavaScript 
+    ================================================== --&gt;</span>
+    &lt;!-- Placed at the end of the document so the pages load faster --&gt;
+    <span class="s0">&lt;script </span><span class="s1">src=</span><span class="s3">&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+    &lt;script <span class="s1">src=</span><span class="s3">&quot;js/bootstrap.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+</body>
+</html>

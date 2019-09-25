@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Area | Dashboard</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style-params.less">
+    <script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
+
+
+    <script src="http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
+
+
+  </head>
+  <body>
+
+
+
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <h1> NetBrain Design System <small>test</small></h1>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+
+
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="list-group">
+              <a href="#" class="list-group-item"> Overview </a>
+              <a href="#" class="list-group-item active main-color-bg"> Typography </a>
+              <a href="#" class="list-group-item"> Color </a>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-9" style="background-color: #ffffff">
+
+
+
+            <!-- Website Overview -->
+
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist" >
+              <li class="nav-item active" >
+                <a class="nav-link active" id="typography-designer" data-toggle="tab" href="#designer" role="tab" aria-controls="home" aria-selected="true" >Designer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="typography-developer" data-toggle="tab" href="#developer" role="tab" aria-controls="profile" aria-selected="false">Developer</a>
+              </li>
+
+            </ul>
+
+
+            <div class="tab-content" id="myTabContent" >
+              <div class="tab-pane active" id="designer" role="tabpanel" aria-labelledby="home-tab" >
+
+
+                <div >
+
+                  <h3> Overview </h3>
+                  Typography can help create clear hierarchies, organize information, and guide users through a product or experience.
+
+
+
+                  <h3>Scale</h3>
+                  Typography can help create clear hierarchies, organize information, and guide users through a product or experience.
+                  <h3>Weights</h3>
+                  Font weight is an important typographic variable that can add emphasis and differentiate content hierarchy. Font weight and size pairings must be carefully balanced.
+
+
+
+                  A bold weight will always have more emphasis than a lighter weight font of the same size. However, a lighter weight font can rank hierarchically higher than a bold font if the lighter weight type size is significantly larger than the bold one.
+
+
+
+                  <h3>Type color</h3>
+                  Type color should be carefully considered, with legibility and accessibility as paramount concerns. Keep type color neutral in running text. Use primary blue for primary actions.
+
+
+
+                  <h3>Dos and Dont's</h3>
+                  Use a transparent version of black on a colored surface to preserve legibility.
+
+
+
+                  Avoid using opaque gray text that isn’t legible on colored surfaces.
+
+
+                  <h3>Usage</h3>
+
+                  <table style="width:100%" align="left">
+                    <!-- title -->
+                    <tr>
+                      <th>
+                        <p class="content-bold-default"> Sketch Text Style </p>
+                      </th>
+                      <th>
+                        <p class="content-bold-default"> Variable Name </p>
+                      </th>
+                      <th>
+                        <p class="content-bold-default"> Usage </p>
+                      </th>
+                      <th>
+                        <p class="content-bold-default"> Sample Text </p>
+                      </th>
+                    </tr>
+
+
+
+                    <!-- 0 Big Number / large -->
+                    <tr>
+                      <th>
+                        <p class="label-general"> 0 Big Number / large </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> bignumber-large </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> This is for this is for emphasizing important text and data. </p>
+                      </th>
+                      <th>
+                        <p class="bignumber-large"> Sample text </p>
+                      </th>
+                    </tr>
+                    <!-- 1 Headline / general -->
+                    <tr>
+                      <th>
+                        <p class="label-general"> 1 Headline / general </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> headline-general </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> This is for top navigation bar headings. </p>
+                      </th>
+                      <th>
+                        <p class="headline-general"> Sample text </p>
+                      </th>
+                    </tr>
+
+                    <tr>
+                      <th>
+                        <p class="label-general"> 1 Headline / white </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> bignumber-large </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> This is for top navigation bar headings. </p>
+                      </th>
+                      <th>
+                        <p class="font-1-headline-white"> Sample text </p>
+                      </th>
+                    </tr>
+
+                    <tr>
+                      <th>
+                        <p class="label-general"> 2 Title / default  </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> bignumber-large </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> This is for page headings. </p>
+                      </th>
+                      <th>
+                        <p class="title-default"> Sample text </p>
+                      </th>
+                    </tr>
+
+
+                    <tr>
+                      <th>
+                        <p class="label-general"> 2 Title / white  </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> bignumber-large </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> This is for page headings. </p>
+                      </th>
+                      <th>
+                        <p class="title-white"> Sample text </p>
+                      </th>
+                    </tr>
+
+                    <tr>
+                      <th>
+                        <p class="label-general"> 3 Subtitle / default  </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> bignumber-large </p>
+                      </th>
+                      <th>
+                        <p class="label-general"> This is commonly used in the title of a popup window.  </p>
+                      </th>
+                      <th>
+                        <p class="subtitle-default"> Sample text </p>
+                      </th>
+                    </tr>
+
+                  </table>
+
+                </div>
+
+
+
+              </div>
+
+
+              <div class="tab-pane fade" id="developer" role="tabpanel" aria-labelledby="profile-tab">
+
+              <h3>Get Started</h3>
+                <p>Import .less file to your page:</p>
+                <pre>//less file
+@import '../../../css/less/vars'; // import variable definition with correct path
+
+.dummy-text{
+    font-size: @font-size-h3;
+    font-family: @font-family-base;
+}</pre>
+
+                <h3> Usage </h3>
+                ...
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+  <script>
+     CKEDITOR.replace( 'editor1' );
+ </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
